@@ -249,6 +249,6 @@ if __name__ == "__main__":
     trace = Trace(example_trace)
 
     tc1 = not trace.AfterFirst(GoTo("Z")).Exists(GoTo(".*"))
-    print("example3: ", tc1)
+    print("example4: ", tc1)
 
     print(GoTo("X").check_equal(TraceElement("GoTo", "X")))
